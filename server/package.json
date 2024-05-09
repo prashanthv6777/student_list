@@ -1,0 +1,29 @@
+{
+  "name": "taskphin-wywsgi-editor-server",
+  "version": "1.0.0",
+  "description": "This application is developed for an taskphin macine test",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.ts"
+  },
+  "author": "premkumar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.3"
+  }
+}
